@@ -13,7 +13,7 @@ and _How_ to get started! <br />
 
 
 > **Note**: if you are already familiar with Internet History and IPFS,
-feel free to skim/skip and go straight to the "How?" section.
+feel free to skim/skip and go straight to the "How?"
 
 
 # _Why?_
@@ -94,25 +94,77 @@ is not a "_problem_", Wikipedia
 However our existing infrastructure
 -->
 
+<br /><br />
 # _Open_/_Unanswered_ Questions
 
+
+
+
 ## Q: How do I `DELETE` something from IPFS?
+
+My biggest question regarding placing files on a distributed file system
+which I have no _control_ over is _how_ do I `DELETE` a file?
 
 Read:
 + https://www.reddit.com/r/dtube/comments/8zt165/wait_so_illegal_content_can_be_uploaded_and_never/
 + https://news.ycombinator.com/item?id=16481112
 
-## Q: What _Guarantees_ Permanence?
+### What about "Right to be Forgotten" _Law_?
+
+When IPFS was _first_ doing the rounds on Hacker News
+the _slogan_ was "The Permanent Web".
+This
+
+![ipfs-permanent-web](https://user-images.githubusercontent.com/194400/50273371-67ed6d80-0432-11e9-8e35-e0727a6307e2.png)
+
+
+
+https://motherboard.vice.com/en_us/article/78xgaq/the-interplanetary-file-system-wants-to-create-a-permanent-web
+
+
+https://en.wikipedia.org/wiki/Right_to_be_forgotten
+
+## Q: What _Guarantees_ Permanence/Storage of Files?
+
+At present there is _zero_ guarantee
+that files uploaded to the IPFS filesystem/network
+will still be there in a few weeks/months time when you need them.
+You are relying on the
+["benevolence"](https://www.goodreads.com/quotes/68664-it-is-not-from-the-benevolence-of-the-butcher-the)
+of the people running IPFS nodes on the network
+to host our data.
+Which as this forum thread notes is currently _not_ reliable:
+https://discuss.ipfs.io/t/error-merkledag-not-found-lost-file/3279
+
+
+### FileCoin?
+
+The proposed solution to file storage guarantees
+is a micro payment system called FileCoin. https://filecoin.io
+
+![filecoin](https://user-images.githubusercontent.com/194400/50270104-6323bc00-0428-11e9-9889-d07b02e7f6f5.png)
+
+At present Protocol Labs has not _started_ (_implementation_) work on FileCoin.
+However the team has written plenty of "foundational" code for the protocols
+that will be _used_ by File Coin so it's "coming" ...
+but for now it's very much
+[_Vaporware_](https://en.wikipedia.org/wiki/Vaporware).
+
+If you want to _understand_ how FileCoin is _going_ to work
+read the "white paper": https://filecoin.io/filecoin.pdf
+
+> The analysis Filecoin doesn’t want you to read:
+https://tokeneconomy.co/the-analysis-filecoin-doesnt-want-you-to-read-e60d5243f17c
+
 
 Related questions:
-+ How do I _know_ that something I have uploaded will not disappear?
++ How do I _know_ that something I have uploaded will not _disappear_?
 + Do I need to maintain an IPFS node for my content?
 
-
 For _example_ "DTube" _uses_ IPFS
-and _appears_ to be a promising distributed alternative to YouTube,
-but
-
+and _appears_ to be a _promising_ distributed alternative to YouTube,
+but until the reliability of content storage is solved,
+it won't gain "mainstream" adoption.
 
 ![dtube-content-disappears](https://user-images.githubusercontent.com/194400/50267204-57cb9300-041e-11e9-85ef-250fe1f1effe.png)
 
@@ -141,6 +193,12 @@ https://en.wikipedia.org/wiki/History_of_the_Internet
 https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
 + Good Summary of IPFS, IPLD and FileCoin:
 https://achainofblocks.com/2018/10/05/ipfs-interplanetary-file-system-simply-explained/
++ Introducing Cloudflare’s IPFS Gateway:
+https://blog.cloudflare.com/distributed-web-gateway/
+  + Discussion thread: https://news.ycombinator.com/item?id=18005488
++ A Beginner’s Guide to IPFS:
+https://hackernoon.com/a-beginners-guide-to-ipfs-20673fedd3f
+(_good overview, but not practical_)
 
 
 # Videos
