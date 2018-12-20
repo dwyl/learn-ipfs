@@ -94,6 +94,22 @@ is not a "_problem_", Wikipedia
 However our existing infrastructure
 -->
 
+
+# _Who?_
+
+People on the bleeding edge who can deal with "changing spec",
+"breaking changes" or "bugs".
+
+
+# _How?_
+
+
+For now, your best "_first lesson_" is [proto.school](https://proto.school)
+If you get "stuck" going through the examples,
+see: https://github.com/nelsonic/learn-ipfs/issues/5#issuecomment-445864393
+
+
+
 <br /><br />
 # _Open_/_Unanswered_ Questions
 
@@ -113,16 +129,21 @@ Read:
 
 When IPFS was _first_ doing the rounds on Hacker News
 the _slogan_ was "The Permanent Web".
-This
 
 ![ipfs-permanent-web](https://user-images.githubusercontent.com/194400/50273371-67ed6d80-0432-11e9-8e35-e0727a6307e2.png)
 
-
+This has been _de-emphasized_ on the IPFS home page lately,
+but is still viewable on early press:
 
 https://motherboard.vice.com/en_us/article/78xgaq/the-interplanetary-file-system-wants-to-create-a-permanent-web
 
+The question is: what if someone posts content onto IPFS
+that they later want to ***`DELETE`*** ... ***how*** is that done?
 
+And if it's not _possible_ to delete content _permanently_ (_and reliably_),
+is that at odds with the _law_?
 https://en.wikipedia.org/wiki/Right_to_be_forgotten
+
 
 ## Q: What _Guarantees_ Permanence/Storage of Files?
 
