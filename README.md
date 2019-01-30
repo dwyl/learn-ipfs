@@ -108,6 +108,28 @@ For now, your best "_first lesson_" is [proto.school](https://proto.school)
 If you get "stuck" going through the examples,
 see: https://github.com/nelsonic/learn-ipfs/issues/5#issuecomment-445864393
 
+## Installation
+
+To install IPFS you can visit https://docs.ipfs.io/introduction/install/ or you
+can use one of the following scripts...
+
+### Mac
+```sh
+  - curl https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz --output go-ipfs.tar.gz
+  - tar xvfz go-ipfs.tar.gz
+  - cd go-ipfs
+  - sudo ./install.sh
+```
+### Linux
+```sh
+  - curl https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-386.tar.gz --output go-ipfs.tar.gz
+  - tar xvfz go-ipfs.tar.gz
+  - cd go-ipfs
+  - sudo ./install.sh
+```
+
+This Linux script can be included in your `.travis.yml` file if you need to
+IPFS functions in your testing environment.
 
 
 <br /><br />
